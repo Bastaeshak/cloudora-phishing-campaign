@@ -126,7 +126,7 @@ The compromised accounts were returned to secure use after credential and authen
 
 ### Post Incident Activity
 
-Victim sign in queries and attacker IP pivots were rerun using KQL in Azure Data Explorer. No additional activity from `198.18.7.200` was found after containment.
+Victim sign in queries and attacker IP pivots were rerun using KQL in Azure Data Explorer. No additional activity from `198.18.7.200` was found after containment..
 
 ## Project Files
 
