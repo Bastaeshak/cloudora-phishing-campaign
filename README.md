@@ -136,15 +136,11 @@ Victim sign in queries and attacker IP pivots were rerun using KQL in Azure Data
 
 Final SOC incident report containing the executive summary, timeline, findings, IOCs, MITRE ATT&CK mapping, scope, response actions, recommendations, and lessons learned.
 
-### KQL Queries
+### KQL Queries, Investigation & Evidence
 
-[KQL-Queries.md](KQL-Queries.md)
+[KQL Queries, Investigation & Evidence](KQL-Queries-Investigation-and-Evidence.md)
 
-Documents the KQL queries used in Azure Data Explorer to scope the campaign, identify users who clicked phishing links, identify credential submissions, investigate Freya Lynn and Ryan Boyd, pivot on attacker infrastructure, and verify activity after containment.
-
-Supporting screenshots of the KQL query results are stored in:
-
-`evidence/log-evidence/`
+KQL queries used to investigate the phishing campaign, analyze account activity, and document the evidence found throughout the investigation.
 
 ### Email and Header Analysis
 
