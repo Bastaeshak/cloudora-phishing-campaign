@@ -166,7 +166,7 @@ CloudoraSignin_CL
 Purpose: Build a complete timeline of Freya Lynn's sign in activity and compare her normal activity with the suspected attacker activity, including the suspicious Amsterdam sign in and the Microsoft 365 services accessed afterward.
 
 Result: Freya Lynn's sign-in history showed successful authentication events originating from both Manchester, United Kingdom (198.51.100.20) and Amsterdam, Netherlands (198.18.7.200). Post-compromise activity included access to Microsoft 365, Outlook Web App, and SharePoint Online, indicating that the attacker accessed multiple cloud services after obtaining valid credentials.
-## **Query 13: Freya Account Baseline**ec9" 
+## **Query 13: Freya Account Baseline*
 
 CloudoraSignin_CL
 | where UserPrincipalName == "freya.lynn@cloudora.io"
