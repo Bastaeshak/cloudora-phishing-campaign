@@ -4,7 +4,7 @@
 
 ### **Email Header**
 
-Return-Path: <payroll@cloudora.io>
+Return-Path: <payroll@cloudora[.]io>
 
 Received: from mail.cloudora-hr-portal.example (198.18.44.23) by DB9EUR03FT034.mail.protection.outlook.com
 
@@ -19,17 +19,17 @@ helo=mail.cloudora-hr-portal.example
 
 DKIM-Signature: d=cloudora.io; signature invalid
 
-From: "Cloudora HR" <payroll@cloudora.io>
+From: "Cloudora HR" <payroll@cloudora[.]io>
 
-Reply-To: "Cloudora HR Support" <hr-support@cloudora-hr-portal.example>
+Reply-To: "Cloudora HR Support" <hr-support@cloudora-hr-portal[.]example>
 
-To: "James Holt" <james.holt@cloudora.io>
+To: "James Holt" <james.holt@cloudora[.]io>
 
 Subject: Payroll update: action required before 5pm
 
 Date: Mon, 25 Aug 2026 08:39:02 +0000
 
-Message-ID: <A-0019@mail.cloudora-hr-portal.example>
+Message-ID: <A-0019@mail.cloudora-hr-portal[.]example>
 
 X-Originating-IP: [198.18.44.23]
 
@@ -68,7 +68,7 @@ Verdict: Malicious phishing email.
 
 ### **Email Header**
 
-Return-Path: <payroll@cloudora-hr-portal.example>
+Return-Path: <payroll@cloudora-hr-portal[.]example>
 
 Received: from mailer.cloudora-hr-portal.example (198.18.51.7) by DB9EUR03FT051.mail.protection.outlook.com
 
@@ -85,17 +85,17 @@ helo=mailer.cloudora-hr-portal.example
 
 DKIM-Signature: d=cloudora-hr-portal.example; s=k1
 
-From: "Cloudora Payroll Services" <payroll@cloudora-hr-portal.example>
+From: "Cloudora Payroll Services" <payroll@cloudora-hr-portal[.]example>
 
-Reply-To: "Payroll Services" <payroll.support@cloudora-hr-portal.example>
+Reply-To: "Payroll Services" <payroll.support@cloudora-hr-portal[.]example>
 
-To: "Ryan Boyd" <ryan.boyd@cloudora.io>
+To: "Ryan Boyd" <ryan.boyd@cloudora[.]io>
 
 Subject: Action required: confirm your August payroll details
 
 Date: Mon, 25 Aug 2026 08:36:22 +0000
 
-Message-ID: <B-0061@mail.cloudora-hr-portal.example>
+Message-ID: <B-0061@mail.cloudora-hr-portal[.]example>
 
 ### **Email Body**
 
@@ -130,7 +130,7 @@ Verdict: Malicious phishing email.
 
 ### **Email Header**
 
-Return-Path: <bounce-mc.us17_123456.7654321-news=cloudora.io@mail105.suw16.mcsv.net>
+Return-Path: <bounce-mc.us17_123456.7654321-news=cloudora.io@mail105.suw16[.]mcsv.net>
 
 Received: from mail105.suw16.mcsv.net (198.18.60.5) by DB9EUR03FT062.mail.protection.outlook.com
 
@@ -148,17 +148,17 @@ DKIM-Signature: d=cloudora.io; s=k2
 
 DKIM-Signature: d=mcsv.net; s=k1
 
-From: "Cloudora News" <news@cloudora.io>
+From: "Cloudora News" <news@cloudora[.]io>
 
-Reply-To: "Cloudora News" <news@cloudora.io>
+Reply-To: "Cloudora News" <news@cloudora[.]io>
 
-To: "Adam Clark" <adam.clark@cloudora.io>
+To: "Adam Clark" <adam.clark@cloudora[.]io>
 
 Subject: Cloudora Monthly: product updates, team wins and what's next
 
 Date: Mon, 25 Aug 2026 06:58:39 +0000
 
-Message-ID: <20260825065839.7654321.123456@mail105.suw16.mcsv.net>
+Message-ID: <20260825065839.7654321.123456@mail105.suw16.mcsv[.]net>
 
 X-Mailer: MailChimp Mailer
 
@@ -201,7 +201,7 @@ Verdict: Legitimate Cloudora marketing email.
 
 ### **Email Header**
 
-Return-Path: <payroll@cloudora.io>
+Return-Path: <payroll@cloudora[.]io>
 
 Authentication-Results: spf=pass (sender IP is 40.107.20.55)
 smtp.mailfrom=cloudora.io;
@@ -219,17 +219,17 @@ X-MS-Exchange-Organization-AuthAs: Internal
 
 X-MS-Exchange-Organization-AuthSource: LO4P123MB6621.GBRP123.PROD.OUTLOOK.COM
 
-From: "Cloudora Payroll" <payroll@cloudora.io>
+From: "Cloudora Payroll" <payroll@cloudora[.]io>
 
-Reply-To: "Cloudora Payroll" <payroll@cloudora.io>
+Reply-To: "Cloudora Payroll" <payroll@cloudora[.]io>
 
-To: "Cloudora Staff" <all-staff@cloudora.io>
+To: "Cloudora Staff" <all-staff@cloudora[.]io>
 
 Subject: August pay date and payslip availability
 
 Date: Thu, 20 Aug 2026 09:02:12 +0000
 
-Message-ID: <a71c9f20-2026-08-20-payroll@cloudora.io>
+Message-ID: <a71c9f20-2026-08-20-payroll@cloudora[.]io>
 
 ### **Email Body**
 
@@ -267,25 +267,25 @@ Verdict: Legitimate Cloudora payroll email.
 
 ### **Email Header**
 
-Return-Path: <james.holt@cloudora.io>
+Return-Path: <james.holt@cloudora[.]io>
 
 Authentication-Results: spf=pass smtp.mailfrom=cloudora.io;
 dkim=pass header.d=cloudora.io;
 dmarc=pass action=none header.from=cloudora.io
 
-From: "James Holt" <james.holt@cloudora.io>
+From: "James Holt" <james.holt@cloudora[.]io>
 
-To: "Security Operations" <soc@cloudora.io>
+To: "Security Operations" <soc@cloudora[.]io>
 
 Subject: FW: Payroll update: action required before 5pm [is this real?]
 
 Date: Mon, 25 Aug 2026 09:11:45 +0000
 
-Message-ID: <fwd-4471-2026-08-25@cloudora.io>
+Message-ID: <fwd-4471-2026-08-25@cloudora[.]io>
 
-Original From: Cloudora HR <payroll@cloudora.io>
+Original From: Cloudora HR <payroll@cloudora[.]io>
 
-Original Reply-To: Cloudora HR Support <hr-support@cloudora-hr-portal.example>
+Original Reply-To: Cloudora HR Support <hr-support@cloudora-hr-portal[.]example>
 
 Original Received: from mail.cloudora-hr-portal.example (198.18.44.23)
 
@@ -296,7 +296,7 @@ dkim=fail header.d=cloudora.io;
 dmarc=fail action=quarantine header.from=cloudora.io;
 compauth=fail reason=001
 
-Original Message-ID: <A-0019@mail.cloudora-hr-portal.example>
+Original Message-ID: <A-0019@mail.cloudora-hr-portal[.]example>
 
 ### **Email Body**
 
@@ -309,9 +309,9 @@ James
 
 -----Original Message-----
 
-From: Cloudora HR <payroll@cloudora.io>
+From: Cloudora HR <payroll@cloudora[.]io>
 
-Reply-To: Cloudora HR Support <hr-support@cloudora-hr-portal.example>
+Reply-To: Cloudora HR Support <hr-support@cloudora-hr-portal[.]example>
 
 Subject: Payroll update: action required before 5pm
 
@@ -365,17 +365,17 @@ Received-SPF: Fail
 client-ip=198.18.44.10;
 helo=mail.cloudora-hr-portal.example
 
-From: "Cloudora HR" <payroll@cloudora.io>
+From: "Cloudora HR" <payroll@cloudora[.]io>
 
-Reply-To: "Cloudora HR Support" <hr-support@cloudora-hr-portal.example>
+Reply-To: "Cloudora HR Support" <hr-support@cloudora-hr-portal[.]example>
 
-To: "Freya Lynn" <freya.lynn@cloudora.io>
+To: "Freya Lynn" <freya.lynn@cloudora[.]io>
 
 Subject: Payroll update: action required before 5pm
 
 Date: Mon, 25 Aug 2026 08:04:33 +0000
 
-Message-ID: <A-0015@mail.cloudora-hr-portal.example>
+Message-ID: <A-0015@mail.cloudora-hr-portal[.]example>
 
 X-Originating-IP: [198.18.44.10]
 
