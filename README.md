@@ -132,19 +132,17 @@ Victim sign in queries and attacker IP pivots were rerun using KQL in Azure Data
 
 ### Incident Report
 
-[Cloudora Phishing Incident Report](incident-report/Cloudora-Phishing-Incident-Report.pdf)
+[Cloudora Phishing Incident Report] (Cloudora phishing campaign IR final.pdf)
 
 Final SOC incident report containing the executive summary, timeline, findings, IOCs, MITRE ATT&CK mapping, scope, response actions, recommendations, and lessons learned.
 
 ### KQL Queries, Investigation & Evidence
 
-[KQL Queries, Investigation & Evidence](KQL-Queries-Investigation-and-Evidence.md)
 
 KQL queries used to investigate the phishing campaign, analyze account activity, and document the evidence found throughout the investigation.
 
 ### Email and Header Analysis
 
-[Email-Header-Analysis.md](Email-Header-Analysis.md)
 
 Documents the analysis of all six email samples including From, Reply-To, Return-Path, Received headers, sending IP addresses, SPF, DKIM, DMARC, URLs, lookalike domains, suspicious indicators, and analyst verdicts.
 
@@ -154,13 +152,11 @@ Supporting email and header evidence is stored in:
 
 ### MITRE ATT&CK Mapping
 
-[MITRE-ATTACK-Mapping.md](MITRE-ATTACK-Mapping.md)
 
 Maps the attacker behavior observed during the investigation to relevant MITRE ATT&CK techniques and explains the evidence supporting each mapping.
 
 ### NIST Incident Response Mapping
 
-[NIST-Incident-Response-Mapping.md](NIST-Incident-Response-Mapping.md)
 
 Maps the investigation and response actions to the NIST incident response lifecycle, including detection and analysis, containment, eradication, recovery, and post incident activity.
 
