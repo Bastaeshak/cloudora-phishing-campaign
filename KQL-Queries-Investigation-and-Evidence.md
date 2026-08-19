@@ -152,6 +152,8 @@ CloudoraMsgTrace_CL
 
 Purpose: Confirm that Freya Lynn interacted with the phishing campaign and submitted her credentials before the suspicious sign in occurred.
 
+Result: Freya Lynn submitted credentials to the PayrollPhish-A campaign at 08:47:12 UTC from IP address 198.51.100.20. This confirmed that the phishing email successfully captured valid user credentials and that Freya's account required immediate containment and further investigation.
+
 ## **Query 12: Freya Sign In Timeline**
 
 CloudoraSignin_CL
@@ -163,6 +165,7 @@ CloudoraSignin_CL
 
 Purpose: Build a complete timeline of Freya Lynn's sign in activity and compare her normal activity with the suspected attacker activity, including the suspicious Amsterdam sign in and the Microsoft 365 services accessed afterward.
 
+Result: Freya Lynn's sign-in history showed successful authentication events originating from both Manchester, United Kingdom (198.51.100.20) and Amsterdam, Netherlands (198.18.7.200). Post-compromise activity included access to Microsoft 365, Outlook Web App, and SharePoint Online, indicating that the attacker accessed multiple cloud services after obtaining valid credentials.
 ## **Query 13: Freya Account Baseline**ec9" 
 
 CloudoraSignin_CL
@@ -174,6 +177,7 @@ CloudoraSignin_CL
 
 Purpose: Compare Freya's normal sign in locations, IP addresses, devices, and operating systems against the suspicious Amsterdam activity to determine whether the attacker session was outside her normal behavior and provide additional evidence of account compromise.
 
+Result: Baseline analysis identified two distinct sign-in patterns for Freya Lynn. The Amsterdam, Netherlands IP address (198.18.7.200) was associated with three successful sign-ins and represented unauthorized activity. The Manchester, United Kingdom IP address (198.51.100.20) was associated with two successful sign-ins and represented the original phishing infrastructure used to capture credentials.
 
 ## Query 14: Received But Did Not Click
 
