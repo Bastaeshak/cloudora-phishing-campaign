@@ -132,7 +132,6 @@ Victim sign in queries and attacker IP pivots were rerun using KQL in Azure Data
 
 ### Incident Report
 
-[Cloudora Phishing Incident Report] (Cloudora phishing campaign IR final.pdf)
 
 Final SOC incident report containing the executive summary, timeline, findings, IOCs, MITRE ATT&CK mapping, scope, response actions, recommendations, and lessons learned.
 
@@ -146,9 +145,6 @@ KQL queries used to investigate the phishing campaign, analyze account activity,
 
 Documents the analysis of all six email samples including From, Reply-To, Return-Path, Received headers, sending IP addresses, SPF, DKIM, DMARC, URLs, lookalike domains, suspicious indicators, and analyst verdicts.
 
-Supporting email and header evidence is stored in:
-
-`evidence/email-header-evidence/`
 
 ### MITRE ATT&CK Mapping
 
