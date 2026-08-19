@@ -45,11 +45,11 @@ Examples:
 
 ## **3. Containment, Eradication, and Recovery**
 
-After confirming the compromised accounts, containment actions were documented to remove attacker access and protect the affected users.
+After confirming the compromised accounts, containment actions were documented to limit attacker access and protect the affected users. The investigation identified unauthorized sign-ins, MFA enrollment, mailbox manipulation, and access to additional Microsoft 365 services.
 
-The response included password resets, session revocation, MFA re-registration, blocking the attacker infrastructure, removing malicious inbox rules, and quarantining remaining phishing emails.
+The documented response included password resets, session revocation, MFA re-registration, blocking the identified attacker infrastructure, identifying and documenting malicious mailbox rules for remediation, and quarantining any remaining phishing emails associated with the campaign.
 
-Because these actions were part of the simulated response, the investigation documented how they would be performed and verified rather than claiming that each action was completed in a live Microsoft 365 environment.
+Because this investigation was conducted in a simulated environment, the report documents the recommended response workflow and the verification steps that would be performed by a SOC or incident response team. Actions such as mailbox rule removal and email remediation would require additional validation in a live Microsoft 365 environment before they could be confirmed as completed.
 
 Examples:
 - Reset passwords for Freya Lynn and Ryan Boyd
